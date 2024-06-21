@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.UiTests.Shared", "App.UiTests.Shared\App.UiTests.Shared.csproj", "{456078B9-1E62-46D6-A9B6-4AC3D7CE002E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.UiTests.Android", "App.UiTests.Android\App.UiTests.Android.csproj", "{1B639699-16A0-49AB-81B5-79909A1E3879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.UiTests.iOS", "App.UiTests.iOS\App.UiTests.iOS.csproj", "{43BFD71B-0BB4-4A13-B121-CE410BE155D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{456078B9-1E62-46D6-A9B6-4AC3D7CE002E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456078B9-1E62-46D6-A9B6-4AC3D7CE002E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456078B9-1E62-46D6-A9B6-4AC3D7CE002E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456078B9-1E62-46D6-A9B6-4AC3D7CE002E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B639699-16A0-49AB-81B5-79909A1E3879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B639699-16A0-49AB-81B5-79909A1E3879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B639699-16A0-49AB-81B5-79909A1E3879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B639699-16A0-49AB-81B5-79909A1E3879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43BFD71B-0BB4-4A13-B121-CE410BE155D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43BFD71B-0BB4-4A13-B121-CE410BE155D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43BFD71B-0BB4-4A13-B121-CE410BE155D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43BFD71B-0BB4-4A13-B121-CE410BE155D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

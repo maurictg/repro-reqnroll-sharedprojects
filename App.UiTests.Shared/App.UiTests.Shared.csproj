@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.Build.NoTargets/3.7">
+    <PropertyGroup>
+        <TargetFramework Condition="'$(TargetFrameworkOverride)' == ''">net8.0</TargetFramework>
+        <TargetFramework Condition="'$(TargetFrameworkOverride)' != ''">TargetFrameworkOverride</TargetFramework>
+        <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+        <GenerateMSBuildEditorConfigFile>False</GenerateMSBuildEditorConfigFile>
+        <GenerateTargetFrameworkAttribute>False</GenerateTargetFrameworkAttribute>
+        <RootNamespace>App.UiTests.Shared</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="Features\**\*.feature" />
+        <Compile Include="**\*.cs" />
+        <None Include="**\*.json" />
+        <None Remove="obj\**\*" />
+        <None Remove="bin\**\*" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Update="appsettings.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+</Project>
